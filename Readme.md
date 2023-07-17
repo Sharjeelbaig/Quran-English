@@ -1,8 +1,11 @@
 
 #### In the name of ALLAH, the Entirely Merciful, the Especially Merciful
 ## Quran English
-![Kingdom of quran (1)](https://github.com/Sharjeelbaig/Quran-English/assets/29815204/52981d11-8626-4b5f-a712-80190b6bc846){:width="500px" height="500px"}
-
+<img src="https://github.com/SharjeelbaigQuran-English/assets/29815204/52981d11-8626-4b5f-a712-80190b6bc846"
+style="height:200px;width:200px;"
+ />
+--
+Developed by Kingdom of Quran: `https://youtube.com/c/kingdomofquran`
 
 ### A simple nodejs module for quranic verses and their translations
 ---
