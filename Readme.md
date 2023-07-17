@@ -1,7 +1,7 @@
 
 #### In the name of ALLAH, the Entirely Merciful, the Especially Merciful
 ## Quran English
-<img src="https://github.com/SharjeelbaigQuran-English/assets/29815204/52981d11-8626-4b5f-a712-80190b6bc846"
+<img src="https://github.com/Sharjeelbaig/Quran-English/assets/29815204/52981d11-8626-4b5f-a712-80190b6bc846"
 style="height:200px;width:200px;"
  />
 --
