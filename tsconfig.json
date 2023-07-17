@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "target": "es6", // Make sure your target version is ES6 or higher
+      "lib": ["es2015", "dom"], // Add "es2015" to the "lib" option
+      "module": "commonjs"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+  

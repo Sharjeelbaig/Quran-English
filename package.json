@@ -1,0 +1,18 @@
+{
+  "name": "quran-english",
+  "version": "1.0.0",
+  "description": "A node module for quranic verses and translations",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node ./src/main.ts"
+  },
+  "keywords": [
+    "quran",
+    "kingdom",
+    "of",
+    "quran",
+    "Quran"
+  ],
+  "author": "Sharjeel Baig",
+  "license": "ISC"
+}
