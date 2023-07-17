@@ -3,7 +3,9 @@
 ## Quran English
 ![Untitled design](https://github.com/Sharjeelbaig/Quran-English/assets/29815204/57c2fa9f-141c-4cd9-afe5-90eacd5add90)
 --
-Developed by Kingdom of Quran: `https://youtube.com/c/kingdomofquran`
+Developed by Kingdom of Quran: [Visit Kingdom of Quran YouTube Channel](https://youtube.com/c/kingdomofquran)
+
+`https://youtube.com/c/kingdomofquran` 
 
 ### A simple nodejs module for quranic verses and their translations
 ---
