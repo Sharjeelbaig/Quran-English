@@ -1,10 +1,11 @@
 {
   "name": "quran-english",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A node module for quranic verses and translations",
-  "main": "main.ts",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "ts-node ./src/main.ts"
+    "start": "ts-node ./src/index.ts"
   },
   "keywords": [
     "quran",
@@ -14,5 +15,8 @@
     "Quran"
   ],
   "author": "Sharjeel Baig",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
