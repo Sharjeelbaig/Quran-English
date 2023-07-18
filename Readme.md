@@ -3,9 +3,11 @@
 ## Quran English
 ![logo kingdom of quran](https://firebasestorage.googleapis.com/v0/b/shazi-cloud.appspot.com/o/kingdom%20of%20quran%20logo.png?alt=media&token=e1a8ea1c-0893-4353-8c77-27869a512b7e)
 
-Developed by Kingdom of Quran: [Visit Kingdom of Quran YouTube Channel](https://youtube.com/c/kingdomofquran)
-
+- A project of Kingdom of Quran: [Visit Kingdom of Quran YouTube Channel](https://youtube.com/c/kingdomofquran)
 `https://youtube.com/c/kingdomofquran` 
+- Developer: Muhammad Sharjeel Baig
+- - linkedin: https://www.linkedin.com/in/sharjeel-baig-250858222/
+
 
 ### A simple nodejs module for quranic verses and their translations
 ---
