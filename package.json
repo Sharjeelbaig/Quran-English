@@ -1,6 +1,6 @@
 {
   "name": "quran-english",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node module for quranic verses and translations",
   "main": "main.ts",
   "scripts": {

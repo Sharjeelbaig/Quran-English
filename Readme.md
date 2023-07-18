@@ -1,7 +1,7 @@
-
+# بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
 #### In the name of ALLAH, the Entirely Merciful, the Especially Merciful
 ## Quran English
-![logo kingdom of quran](https://raw.githubusercontent.com/Sharjeelbaig/Quran-English/master/assets/kingdomofquran_logo.png?token=GHSAT0AAAAAACCBJ2MR7ESPC2Y3OOEZR7MKZFUVBOA)
+![logo kingdom of quran](https://firebasestorage.googleapis.com/v0/b/shazi-cloud.appspot.com/o/kingdom%20of%20quran%20logo.png?alt=media&token=e1a8ea1c-0893-4353-8c77-27869a512b7e)
 
 Developed by Kingdom of Quran: [Visit Kingdom of Quran YouTube Channel](https://youtube.com/c/kingdomofquran)
 
@@ -245,4 +245,4 @@ output
     ...
     ...
 ```
-![Kingdom of Quran](https://raw.githubusercontent.com/Sharjeelbaig/Quran-English/master/assets/kingdomofquran%20banner.png?token=GHSAT0AAAAAACCBJ2MRSVBVGDCBTBW5BS7SZFUVA6Q)
+![Kingdom of Quran](https://firebasestorage.googleapis.com/v0/b/shazi-cloud.appspot.com/o/kingdomofquran%20banner.png?alt=media&token=60fd7c45-1dae-4b54-9f22-0b42b40ca5ae)
