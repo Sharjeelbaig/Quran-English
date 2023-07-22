@@ -47,7 +47,6 @@ console.log(surahInfo);
   id: 1,
   name_arabic: 'الفاتحة',
   name_english: 'Al-Fatihah',
-  revelation_type: 'Meccan',
   verses_count: 7,
 }*/
 ```
@@ -62,7 +61,6 @@ console.log(surah);
   id: 1,
   name_arabic: "الفاتحة",
   name_english: "Al-Fatihah",
-  revelation_type: "Meccan",
   verses_count: 7,
 }*/
 ```
