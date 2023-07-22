@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getVersesBySurahName = exports.getVersesBySurahId = exports.getVerseByKey = exports.getSurahByName = exports.getSurahById = void 0;
+exports.getChapterNameArabic = exports.getChapterNameEnglish = exports.getTranslation = exports.getVerse = exports.getVersesBySurahName = exports.getVersesBySurahId = exports.getVerseByKey = exports.getSurahByName = exports.getSurahById = void 0;
 const chapters_json_1 = __importDefault(require("./chapters.json"));
 const verses_json_1 = __importDefault(require("./verses.json"));
 const getSurahById = (chapterId) => {
@@ -11,7 +11,8 @@ const getSurahById = (chapterId) => {
 };
 exports.getSurahById = getSurahById;
 const getSurahByName = (chapterName) => {
-    return chapters_json_1.default.chapters.find((chapter) => chapter.name_english === chapterName || chapter.name_arabic === chapterName);
+    return chapters_json_1.default.chapters.find((chapter) => chapter.name_english === chapterName ||
+        chapter.name_arabic === chapterName);
 };
 exports.getSurahByName = getSurahByName;
 const getVerseByKey = (verseKey) => {
@@ -27,3 +28,25 @@ const getVersesBySurahName = (chapterName) => {
     return chapter ? (0, exports.getVersesBySurahId)(chapter.id) : [];
 };
 exports.getVersesBySurahName = getVersesBySurahName;
+const getVerse = (surahId, verseNumber) => {
+    var _a;
+    const verseKey = `${surahId}:${verseNumber}`;
+    return (_a = verses_json_1.default.verses.find((verse) => verse.verse_key === verseKey)) === null || _a === void 0 ? void 0 : _a.text;
+};
+exports.getVerse = getVerse;
+function getTranslation(surahId, verseNumber) {
+    const verseKey = `${surahId}:${verseNumber}`;
+    const matchingItem = verses_json_1.default.verses.find((verse) => verse.verse_key === verseKey);
+    return matchingItem ? matchingItem.translation : null;
+}
+exports.getTranslation = getTranslation;
+function getChapterNameEnglish(chapterId) {
+    var _a;
+    return (_a = chapters_json_1.default.chapters.find((chapter) => chapter.id === chapterId)) === null || _a === void 0 ? void 0 : _a.name_english;
+}
+exports.getChapterNameEnglish = getChapterNameEnglish;
+function getChapterNameArabic(chapterId) {
+    var _a;
+    return (_a = chapters_json_1.default.chapters.find((chapter) => chapter.id === chapterId)) === null || _a === void 0 ? void 0 : _a.name_arabic;
+}
+exports.getChapterNameArabic = getChapterNameArabic;

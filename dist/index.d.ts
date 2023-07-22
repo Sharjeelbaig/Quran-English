@@ -45,3 +45,7 @@ export declare const getVersesBySurahName: (chapterName: string) => {
     translation: string;
     surah_id: number;
 }[];
+export declare const getVerse: (surahId: number, verseNumber: number) => string | undefined;
+export declare function getTranslation(surahId: number, verseNumber: number): string | null;
+export declare function getChapterNameEnglish(chapterId: number): string | undefined;
+export declare function getChapterNameArabic(chapterId: number): string | undefined;
